@@ -1,0 +1,19 @@
+﻿  Source.cpp
+Source.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glewGetString referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Window::Window(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0Window@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Window::~Window(void)" (__imp_??1Window@sf@@UEAA@XZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@QEAAXXZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QEBA_NXZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp___GLEW_VERSION_3_0 referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+C:\OpenGLSFML\lib\sfml-main-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenGLSFML\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenGLSFML\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenGLSFML\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenGLSFML\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\ITI\Code\2023\OpenGL_Day1\x64\Debug\OpenGL_Day1.exe : fatal error LNK1120: 12 unresolved externals
